@@ -1,0 +1,117 @@
+/* modal.css */
+/* This file styles the analysis window that gets injected into the page. */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+#gemini-analysis-modal {
+  position: fixed;
+  z-index: 2147483647; /* Maximum z-index */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  font-family: 'Inter', sans-serif;
+  color: #2d3436;
+  animation: fadeIn 0.3s ease-in-out;
+  border: 1px solid #dfe6e9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -45%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+.gemini-modal-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.gemini-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  border-bottom: 1px solid #dfe6e9;
+  background-color: #f5f6fa;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.gemini-modal-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0984e3;
+}
+
+.gemini-modal-close-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  font-weight: 300;
+  color: #636e72;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+  transition: color 0.2s ease;
+}
+
+.gemini-modal-close-btn:hover {
+  color: #d63031;
+}
+
+.gemini-modal-body {
+  padding: 24px;
+  line-height: 1.6;
+  font-size: 16px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.gemini-modal-body strong {
+    color: #0984e3;
+}
+
+.gemini-modal-body ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.gemini-modal-body li {
+    padding-left: 20px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.gemini-modal-body li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #0984e3;
+}
+
+/* Loader animation */
+.gemini-loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #0984e3;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.gemini-modal-body p {
+    text-align: center;
+    color: #636e72;
+}
+
