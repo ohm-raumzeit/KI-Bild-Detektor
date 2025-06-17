@@ -23,3 +23,5 @@ Sie können einen kostenlosen API-Schlüssel für Gemini von Google AI Studio er
 7. Wählen Sie den von Ihnen erstellten Ordner KI-Detektor-Erweiterung aus. Die Erweiterung sollte nun in Ihrer Liste erscheinen.
 
 8. Testen: Gehen Sie zu einer beliebigen Webseite, suchen Sie ein Bild, klicken Sie mit der rechten Maustaste darauf und wählen Sie die neue Option "Bild mit Gemini analysieren". Ein Fenster mit der Analyse sollte erscheinen.
+
+Datenschutzerklärung für die KI-Bild-Detektor Chrome-Erweiterung: https://itheereum.com/datenschutzerklarung-fur-die-ki-bild-detektor-chrome-erweiterung/
