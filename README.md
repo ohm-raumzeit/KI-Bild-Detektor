@@ -12,9 +12,9 @@ Sie können einen kostenlosen API-Schlüssel für Gemini von Google AI Studio er
 
 2. Dateien speichern: Speichern Sie die vier oben genannten Codeblöcke in diesem Ordner. Stellen Sie sicher, dass die Dateinamen exakt übereinstimmen.
 
-2. Icon-Ordner erstellen: Erstellen Sie in Ihrem KI-Detektor-Erweiterung-Ordner einen weiteren Ordner namens icons. Der background.js-Code generiert beim ersten Start Platzhalter-Icons, aber dieser Ordner wird vom Manifest erwartet.
+2. Icon-Ordner erstellen: Erstellen Sie in Ihrem *KI-Bild-Detektor*-Ordner einen weiteren Ordner namens *icons*.
 
-3. Chrome-Erweiterungsseite öffnen: Öffnen Sie Google Chrome und navigieren Sie zu chrome://extensions.
+3. Chrome-Erweiterungsseite öffnen: Öffnen Sie Google Chrome und navigieren Sie zu *chrome://extensions*.
 
 4. Entwicklermodus aktivieren: Schalten Sie oben rechts auf der Seite den Entwicklermodus ein.
 
