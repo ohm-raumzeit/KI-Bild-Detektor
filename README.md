@@ -8,8 +8,6 @@ Sie können einen kostenlosen API-Schlüssel für Gemini von Google AI Studio er
 
 *Nächste Schritte: So installieren und verwenden Sie die Erweiterung*
 
-Da Chrome-Erweiterungen nicht direkt aus einer Datei ausgeführt werden können, müssen Sie sie im Entwicklermodus laden.
-
 1. Erstellen Sie einen Ordner: Erstellen Sie auf Ihrem Computer einen neuen Ordner und nennen Sie ihn z. B. KI-Detektor-Erweiterung.
 
 2. Dateien speichern: Speichern Sie die vier oben genannten Codeblöcke in diesem Ordner. Stellen Sie sicher, dass die Dateinamen exakt übereinstimmen:
