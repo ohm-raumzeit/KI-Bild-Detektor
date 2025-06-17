@@ -12,11 +12,11 @@ Sie können einen kostenlosen API-Schlüssel für Gemini von Google AI Studio er
 
 2. Speichern Sie die vier oben genannten Codeblöcke in diesem Ordner.
 
-3. Erstellen Sie in Ihrem *KI-Bild-Detektor*-Ordner einen weiteren Ordner namens *icons*.
+3. Erstellen Sie in Ihrem *KI-Bild-Detektor*-Ordner einen Ordner namens *icons*.
 
 4. Öffnen Sie Google Chrome und navigieren Sie zu *chrome://extensions*.
 
-5. Schalten Sie oben rechts auf der Seite den Entwicklermodus ein.
+5. Schalten Sie oben rechts auf der Seite den *Entwicklermodus* ein.
 
 6. Es erscheinen neue Schaltflächen. Klicken Sie auf "Entpackte Erweiterung laden".
 
