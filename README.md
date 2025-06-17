@@ -8,13 +8,9 @@ Sie können einen kostenlosen API-Schlüssel für Gemini von Google AI Studio er
 
 *Nächste Schritte: So installieren und verwenden Sie die Erweiterung*
 
-1. Erstellen Sie einen Ordner: Erstellen Sie auf Ihrem Computer einen neuen Ordner und nennen Sie ihn z. B. KI-Detektor-Erweiterung.
+1. Erstellen Sie einen Ordner: Erstellen Sie auf Ihrem Computer einen neuen Ordner und nennen Sie ihn z. B. *KI-Bild-Detektor*.
 
-2. Dateien speichern: Speichern Sie die vier oben genannten Codeblöcke in diesem Ordner. Stellen Sie sicher, dass die Dateinamen exakt übereinstimmen:
-manifest.json
-background.js
-modal.css
-popup.html
+2. Dateien speichern: Speichern Sie die vier oben genannten Codeblöcke in diesem Ordner. Stellen Sie sicher, dass die Dateinamen exakt übereinstimmen.
 
 2. Icon-Ordner erstellen: Erstellen Sie in Ihrem KI-Detektor-Erweiterung-Ordner einen weiteren Ordner namens icons. Der background.js-Code generiert beim ersten Start Platzhalter-Icons, aber dieser Ordner wird vom Manifest erwartet.
 
